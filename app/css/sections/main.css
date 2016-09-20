@@ -1,14 +1,14 @@
-section{
-  border: 1px solid;
+section.top-section>div{
+	height: 100%;
 }
-
-
-/* Important to set height for column layout */
-.boxWithHeight {
-  box-sizing: border-box;
-  height: 100%;
+section.top-section>div>span{
+	text-align: center;
 }
-
-section {
-  background-color: #dedede;
+section.top-section>div>*:focus {
+    outline: none;
+    border: 0;
+}
+section.top-section>div>i {
+    cursor: pointer;
+    cursor: hand;
 }

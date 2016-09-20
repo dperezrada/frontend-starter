@@ -1,12 +1,18 @@
-<section flex="33">
-	<div ng-repeat="domain in config.domains">
-		<a ui-sref="index.stats({id:domain})">index.list2.detail({id:{{domain}}})</a>
+<section class="top-section" flex="33" layout="column">
+	<div layout="row" layout-align="center center">
+		<i ng-show="fenix.domains.length > 1" flex="10" ng-click="updateNav('prev', 'domains')" class="material-icons">keyboard_arrow_left</i>
+		<span flex>{{current.domain}}</span>
+		<i ng-show="fenix.domains.length > 1" flex="10" ng-click="updateNav('next', 'domains')" class="material-icons">keyboard_arrow_right</i>
 	</div>
 </section>
-<section flex>
-	<div ng-click="current.lala=4">4</div>
-	{{current.lala}}
+<section  class="top-section" flex layout="column">
+	<div layout="row" layout-align="center center">
+		<i flex="10" ng-show="fenix.product_types[current.domain].length > 1" ng-click="updateNav('prev', 'product_types')" class="material-icons">keyboard_arrow_left</i>
+		<span flex>{{current.product_type}}</span>
+		<i flex="10" ng-show="fenix.product_types[current.domain].length > 1" ng-click="updateNav('next', 'product_types')" class="material-icons">keyboard_arrow_right</i>
+	</div>
 </section>
-<section flex="33">
-	hola3
+
+<section flex="33" class="top-section" layout="column">
 </section>
+</div>

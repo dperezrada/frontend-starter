@@ -14,9 +14,4 @@ body[ng-cloak] {
   display:none;
 }
 body {
-  background-color: #FEEBC8;
-}
-section{
-	margin: 0;
-	padding: 0;
 }
