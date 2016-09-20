@@ -1,0 +1,22 @@
+[ng-cloak] {
+  display: none;
+}
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+body[ng-cloak] {
+  display:none;
+}
+body {
+  background-color: #FEEBC8;
+}
+section{
+	margin: 0;
+	padding: 0;
+}

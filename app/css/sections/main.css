@@ -1,0 +1,14 @@
+section{
+  border: 1px solid;
+}
+
+
+/* Important to set height for column layout */
+.boxWithHeight {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+section {
+  background-color: #dedede;
+}
